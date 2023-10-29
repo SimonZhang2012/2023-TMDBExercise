@@ -1,6 +1,6 @@
 # 2023-TMDBExercise
 
-Building the APP
+**Building the APP**
 
 
 - Using the latest Xcode (15.0.1) on the date of 2023-10-30
