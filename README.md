@@ -1,6 +1,6 @@
 # 2023-TMDBExercise
 
-**Building the APP**
+## **Building the APP**
 
 
 - Using the latest Xcode (15.0.1) on the date of 2023-10-30
@@ -11,8 +11,96 @@
 
 Should a testFlight required, please contact author as well
 
+## **Checking against the requirements:**
 
-**Developer Notes**: Technical Challenges and Decisions
+1. ### The app should have two screens: a search screen and a details screen.
+
+
+	Confirmed. Additionally, a separate view has been created for showcasing favourites.
+
+2. ### The search screen should have a search bar that allows the user to search for movies by title. The search results should be displayed in a table view.
+
+
+	Confirmed. However, in SwiftUI terminology, it's referred to as a list, not a table view as in UIKit. 🙂 
+
+3. ### The table view should display the movie title, release date, and poster image.
+
+
+	Confirmed.
+
+4. ### The details screen should display additional information about the selected movie, including the movie title, release date, poster image, and overview.
+
+
+	Confirmed. Additionally, a star icon has been incorporated for adding to/removing from the favourite list.
+
+5. ### The app should cache search results for offline use.
+
+
+	Confirmed.
+
+	In addition, 
+
+	1 images are also cached.
+
+	2 Implemented an unrequested feature to display cache size and provide an option to clear cache. This feature can be accessed by entering “Debug” in the search bar.
+
+6. ### The app should handle error cases gracefully and provide feedback to the user when necessary.
+
+
+	Confirmed - all exceptions are captured and appropriately displayed to the user
+
+**Bonus points:**
+
+1. ### Implement pagination in the search results table view.
+
+
+	Confirmed. A pagination control has been added at the bottom, displaying the current/total page count and navigation controls for previous and next pages.
+
+2. ### Allow users to save movies to a favourite list.
+
+
+	Confirmed. Users can tap the star icon in the detail view to add/remove movies to/from the favourite list.
+
+3. ### Add unit tests and UI tests for your code.
+
+
+	Confirmed, although they are basic due to time constraints.
+
+
+	- In the Unit Test, demonstrated how to use dependency injection for testing required features in isolation.
+	- In UI Test, demonstrated how to utilize accessibility labels for control identification and asynchronous testing.
+
+	It would cause a huge amount of time (might more than develop the features it self) to write  complete tests
+
+4. ### Offline mode: the app can persist the data previously fetched and see them when the app is opened in offline mode.
+
+
+	Confirmed. Search results, images, and favorites are cached locally for offline access
+
+**Deliverables:**
+
+1. ### A working iOS app that meets the above requirements.
+
+
+	**Need clarification. Is it expected to run the app on Xcode/Simulator or a real device, or is a TestFlight build needed?**
+
+2. ### A README file with instructions for building and running the app.
+
+
+	Confirmed - detailed in a separate document.
+
+3. ### A brief write-up describing the decisions you made while building the app, any challenges you faced, and how you overcame them.
+
+
+	Confirmed - detailed in a separate document.
+
+4. ### Your source code, preferably hosted on a public repository such as GitHub.
+
+
+	confirmed - [https://github.com/SimonZhang2012/2023-TMDBExercise](https://github.com/SimonZhang2012/2023-TMDBExercise)
+
+
+## **Developer Notes**: Technical Challenges and Decisions
 
 
 - [x] Opted for a timed challenge to prevent it from stretching over a long duration.
@@ -43,7 +131,7 @@ Intentionally Unresolved and Areas for Improvement
 - Testing on older iOS versions and different machine models has not been conducted.
 
 
-**Manual Test Plan**: 
+## **Manual Test Plan**: 
 
 - App Launch: Display Search Screen
 - Verifying Search Functionality:
