@@ -29,8 +29,6 @@
 		22BA1D022AED13750074FAA4 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA1D012AED13750074FAA4 /* MoviesListView.swift */; };
 		22BA1D042AED13CD0074FAA4 /* MovieRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA1D032AED13CD0074FAA4 /* MovieRowView.swift */; };
 		22BA1D062AED1C8B0074FAA4 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BA1D052AED1C8B0074FAA4 /* FavouriteView.swift */; };
-		CA82679F2CCA8B2C002534C1 /* bad-data-manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA82679E2CCA8B2C002534C1 /* bad-data-manager.swift */; };
-		CA8267A12CCA8C09002534C1 /* bad-networking-manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8267A02CCA8C09002534C1 /* bad-networking-manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +75,6 @@
 		22BA1D012AED13750074FAA4 /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
 		22BA1D032AED13CD0074FAA4 /* MovieRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowView.swift; sourceTree = "<group>"; };
 		22BA1D052AED1C8B0074FAA4 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
-		CA82679E2CCA8B2C002534C1 /* bad-data-manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "bad-data-manager.swift"; sourceTree = "<group>"; };
-		CA8267A02CCA8C09002534C1 /* bad-networking-manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "bad-networking-manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,8 +226,6 @@
 		CA82679D2CCA8B16002534C1 /* FilesToCheck */ = {
 			isa = PBXGroup;
 			children = (
-				CA8267A02CCA8C09002534C1 /* bad-networking-manager.swift */,
-				CA82679E2CCA8B2C002534C1 /* bad-data-manager.swift */,
 			);
 			path = FilesToCheck;
 			sourceTree = "<group>";
@@ -375,14 +369,12 @@
 				22BA1CF32AEBE2750074FAA4 /* MovieModule.swift in Sources */,
 				22BA1D062AED1C8B0074FAA4 /* FavouriteView.swift in Sources */,
 				22BA1CBE2AEBDA520074FAA4 /* ContentView.swift in Sources */,
-				CA8267A12CCA8C09002534C1 /* bad-networking-manager.swift in Sources */,
 				22BA1CBC2AEBDA520074FAA4 /* TMDBSampleApp.swift in Sources */,
 				22BA1D002AECF4860074FAA4 /* Int+Extensions.swift in Sources */,
 				22BA1D042AED13CD0074FAA4 /* MovieRowView.swift in Sources */,
 				229CDE232AEE6A1A00D6FBCF /* URLSessionProtocol.swift in Sources */,
 				22BA1D022AED13750074FAA4 /* MoviesListView.swift in Sources */,
 				22BA1CEE2AEBDB710074FAA4 /* APISearchResponseModel.swift in Sources */,
-				CA82679F2CCA8B2C002534C1 /* bad-data-manager.swift in Sources */,
 				22BA1CFE2AECD3FA0074FAA4 /* DebugView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

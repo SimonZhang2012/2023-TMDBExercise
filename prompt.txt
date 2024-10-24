@@ -11,6 +11,10 @@ When providing code review feedback:
 - Ignore positive aspects; do not mention anything like "this is generally good" or "well done."
 - Be blunt and ruthlessly point out only what needs to be changed or improved.
 - Sort the feedback by importance, listing the most critical issues first.
+- Point out the line number in the file, so it would be easy to identify the problem.
+- Please ignore any xcode project files change
+
+In the final of the review, please give a 1 to 100 score, based on the quaily of code.
 
 Please review the following code:
 
